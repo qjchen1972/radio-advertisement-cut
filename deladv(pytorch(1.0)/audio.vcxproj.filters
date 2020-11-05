@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mel">
+      <UniqueIdentifier>{1bfaa339-d118-42ed-b836-42a9e27f95b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{45c7a3c3-f71d-43d9-8774-4424a0db8f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librosa">
+      <UniqueIdentifier>{ecdb69a3-ed19-4fdf-a88a-fab0bbc00e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{dbed3b17-98f5-4221-b4f6-ff7d2b90fdc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\mel\mel.cpp">
+      <Filter>mel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\librosa\AudioFFT.cpp">
+      <Filter>librosa</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mel\mel.h">
+      <Filter>mel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\caffe2_net.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\possion.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\audio.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\AudioFFT.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\librosa.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\matrix.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\minimp3.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\minimp3_ex.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\dirent.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\torch_net.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\adv_verify.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\CMakeLists.txt_V1.1" />
+    <None Include="test\test_fft.py">
+      <Filter>test</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+#name
+name  beijingwenyi
+#type hls=0, shoutcast=1
+type 0
+#dns
+dns cnlive.cnr.cn
+#port
+port  80
+#time zone
+timezone 0
+#progam list path
+progpath list
+#download file path
+filepath mp3
+#shoutcast request html
+request  /hls/bjwygb.m3u8
+#m3u8 dir
+m3u8_dir  /hls

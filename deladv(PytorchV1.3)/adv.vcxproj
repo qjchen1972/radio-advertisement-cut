@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E14C6D05-EBB5-3026-B9BC-1E346B3B11C8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>adv</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\soft_list\pytorch\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">predictor_verifier.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">predictor_verifier</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hq_work\adv\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\log\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">adv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\soft_list\pytorch\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">predictor_verifier.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">predictor_verifier</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\soft_list\pytorch\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">predictor_verifier.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">predictor_verifier</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\soft_list\OpenBLAS-v0.2.19-Win64-int32\include;D:\soft_list\lame-3.100\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\soft_list\OpenBLAS-v0.2.19-Win64-int32\lib;D:\soft_list\lame-3.100\output\Release;D:\soft_list\pytorch\build;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w /bigobj /w /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4522;4838;4305;4244;4190;4101;4996;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;NOMINMAX;ONNX_ML=1;ONNX_NAMESPACE=onnx_torch;_CRT_SECURE_NO_DEPRECATE=1;WIN32_LEAN_AND_MEAN;AT_PARALLEL_OPENMP=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;NOMINMAX;ONNX_ML=1;ONNX_NAMESPACE=onnx_torch;_CRT_SECURE_NO_DEPRECATE=1;WIN32_LEAN_AND_MEAN;AT_PARALLEL_OPENMP=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\caffe2_observers.lib;..\lib\Debug\torch.lib;..\lib\Debug\libprotobufd.lib;..\lib\Debug\c10.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4049 /ignore:4217</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/soft_list/pytorch/build/lib/Debug/predictor_verifier.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/soft_list/pytorch/build/bin/Debug/predictor_verifier.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w /bigobj /w /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4522;4838;4305;4244;4190;4101;4996;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;NOMINMAX;ONNX_ML=1;ONNX_NAMESPACE=onnx_torch;_CRT_SECURE_NO_DEPRECATE=1;WIN32_LEAN_AND_MEAN;AT_PARALLEL_OPENMP=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;NOMINMAX;ONNX_ML=1;ONNX_NAMESPACE=onnx_torch;_CRT_SECURE_NO_DEPRECATE=1;WIN32_LEAN_AND_MEAN;AT_PARALLEL_OPENMP=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libmp3lame.lib;openblas.lib;lib\Release\caffe2_observers.lib;lib\Release\torch.lib;lib\Release\libprotobuf.lib;lib\Release\c10.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4049 /ignore:4217</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/soft_list/pytorch/build/lib/Release/predictor_verifier.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/soft_list/pytorch/build/bin/Release/predictor_verifier.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w /bigobj /w /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4522;4838;4305;4244;4190;4101;4996;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;NOMINMAX;ONNX_ML=1;ONNX_NAMESPACE=onnx_torch;_CRT_SECURE_NO_DEPRECATE=1;WIN32_LEAN_AND_MEAN;AT_PARALLEL_OPENMP=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;NOMINMAX;ONNX_ML=1;ONNX_NAMESPACE=onnx_torch;_CRT_SECURE_NO_DEPRECATE=1;WIN32_LEAN_AND_MEAN;AT_PARALLEL_OPENMP=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\MinSizeRel\caffe2_observers.lib;..\lib\MinSizeRel\torch.lib;..\lib\MinSizeRel\libprotobuf.lib;..\lib\MinSizeRel\c10.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4049 /ignore:4217</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/soft_list/pytorch/build/lib/MinSizeRel/predictor_verifier.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/soft_list/pytorch/build/bin/MinSizeRel/predictor_verifier.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w /bigobj /w /bigobj /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4522;4838;4305;4244;4190;4101;4996;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;NOMINMAX;ONNX_ML=1;ONNX_NAMESPACE=onnx_torch;_CRT_SECURE_NO_DEPRECATE=1;WIN32_LEAN_AND_MEAN;AT_PARALLEL_OPENMP=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_GCC_GET_CPUID;USE_AVX;USE_AVX2;TH_HAVE_THREAD;NOMINMAX;ONNX_ML=1;ONNX_NAMESPACE=onnx_torch;_CRT_SECURE_NO_DEPRECATE=1;WIN32_LEAN_AND_MEAN;AT_PARALLEL_OPENMP=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\soft_list\pytorch\build\aten\src;D:\soft_list\pytorch\aten\src;D:\soft_list\pytorch\build;D:\soft_list\pytorch;D:\soft_list\pytorch\cmake\..\third_party\benchmark\include;D:\soft_list\pytorch\third_party\onnx;D:\soft_list\pytorch\build\third_party\onnx;D:\soft_list\pytorch\third_party\foxi;D:\soft_list\pytorch\build\third_party\foxi;D:\soft_list\pytorch\caffe2\..\torch\csrc\api;D:\soft_list\pytorch\caffe2\..\torch\csrc\api\include;D:\soft_list\pytorch\c10\..;D:\soft_list\pytorch\modules\observers\..;D:\soft_list\pytorch\cmake\..\third_party\googletest\googlemock\include;D:\soft_list\pytorch\cmake\..\third_party\googletest\googletest\include;D:\soft_list\pytorch\third_party\protobuf\src;D:\soft_list\pytorch\cmake\..\third_party\eigen;D:\soft_list\Anaconda3\include;D:\soft_list\Anaconda3\lib\site-packages\numpy\core\include;D:\soft_list\pytorch\cmake\..\third_party\pybind11\include;\opt\rocm\hip\include;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\RelWithDebInfo\caffe2_observers.lib;..\lib\RelWithDebInfo\torch.lib;..\lib\RelWithDebInfo\libprotobuf.lib;..\lib\RelWithDebInfo\c10.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4049 /ignore:4217</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/soft_list/pytorch/build/lib/RelWithDebInfo/predictor_verifier.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/soft_list/pytorch/build/bin/RelWithDebInfo/predictor_verifier.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\librosa\AudioFFT.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mel\mel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\soft_list\pytorch\build\ZERO_CHECK.vcxproj">
+      <Project>{201DE5B8-0D44-3615-B1E5-E969720FB257}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\c10\c10.vcxproj">
+      <Project>{CF627E60-F04D-32CF-A440-BA2D33EFEADA}</Project>
+      <Name>c10</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\modules\observers\caffe2_observers.vcxproj">
+      <Project>{FCED017C-40AF-30D3-B435-5CC14BEA3C88}</Project>
+      <Name>caffe2_observers</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\third_party\protobuf\cmake\libprotobuf.vcxproj">
+      <Project>{3B44CD70-EFC9-36FE-BF68-256FE425BF7E}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\soft_list\pytorch\build\caffe2\torch.vcxproj">
+      <Project>{D401B2F0-49F8-34DC-9F66-E7EC02C07F2D}</Project>
+      <Name>torch</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\adv_verify.h" />
+    <ClInclude Include="src\librosa\audio.h" />
+    <ClInclude Include="src\librosa\AudioFFT.h" />
+    <ClInclude Include="src\librosa\librosa.h" />
+    <ClInclude Include="src\librosa\matrix.h" />
+    <ClInclude Include="src\librosa\minimp3.h" />
+    <ClInclude Include="src\librosa\minimp3_ex.h" />
+    <ClInclude Include="src\mel\mel.h" />
+    <ClInclude Include="src\utils\caffe2_net.h" />
+    <ClInclude Include="src\utils\dirent.h" />
+    <ClInclude Include="src\utils\possion.h" />
+    <ClInclude Include="src\utils\torch_net.h" />
+    <ClInclude Include="src\utils\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\CMakeLists.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

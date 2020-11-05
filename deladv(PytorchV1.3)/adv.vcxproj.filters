@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\mel\mel.cpp">
+      <Filter>mel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\librosa\AudioFFT.cpp">
+      <Filter>librosa</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mel">
+      <UniqueIdentifier>{e0e83939-07d5-4303-9853-433bbddbb090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librosa">
+      <UniqueIdentifier>{8ba7d34d-f998-4df1-96b7-f8a639f507e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{9de32b9f-9399-4b5d-8033-7ec6145a4841}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mel\mel.h">
+      <Filter>mel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\audio.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\AudioFFT.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\librosa.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\matrix.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\minimp3.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\librosa\minimp3_ex.h">
+      <Filter>librosa</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\caffe2_net.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\dirent.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\possion.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\torch_net.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\adv_verify.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\CMakeLists.txt" />
+  </ItemGroup>
+</Project>
