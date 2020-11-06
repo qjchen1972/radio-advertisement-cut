@@ -1,6 +1,6 @@
 # radio advertisement cut
 
-### Introduction
+## Introduction
 Cut radio stations from the network to remove advertising, traffic information and the hourly news. Only the actual program content is retained.
 
 ### Difficulties:
