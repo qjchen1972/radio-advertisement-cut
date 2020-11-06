@@ -28,8 +28,8 @@ Cut radio stations from the network to remove advertising, traffic information a
 
 | | Abnormal program (actual result) | normal program (actual result)
 |:-------|:-----:|:-------:|
-| abnormal prediction results | 1607 | 3 |
-| Normal program (forecast result) | 1 | 2287  |
+| abnormal (prediction results) | 1607 | 3 |
+| Normal program (prediction result) | 1 | 2287  |
 
   Accuracy = 99.89%
 
