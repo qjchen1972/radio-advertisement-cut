@@ -35,6 +35,14 @@ Cut radio stations from the network to remove advertising, traffic information a
 
 2. In the actual test, the effect is very good. I have specific test results, charts and data here. Call me when you need it
 
+### Some references
+
+  * [http://blog.csdn.net/zouxy09/article/details/9156785](http://blog.csdn.net/zouxy09/article/details/9156785)
+  * [https://blog.csdn.net/zzc15806/article/details/79246716](https://blog.csdn.net/zzc15806/article/details/79246716)
+  * [https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html)
+  
+  
+
 # test
 ok
 ok
