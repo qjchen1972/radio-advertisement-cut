@@ -17,9 +17,9 @@ Cut radio stations from the network to remove advertising, traffic information a
 2. A 401 * 80 square matrix is obtained by using 80 Mel filter banks and 4 seconds of sound. Finally, the 160 * 160 square matrix is used as the training and recognition input
 3. Using a castrated densenet network (430000 parameters), the deployed caffe2 network is about 2.5m
 4. Data enhancement method similar to the graph is adopted
-   * The volume of the sound will be increased or decreased at random
+* The volume of the sound will be increased or decreased at random
    *  A random number is added or subtracted as a whole
-   *The generated Mel spectrum is randomly cut into a 160 * 160 square matrix
+   * The generated Mel spectrum is randomly cut into a 160 * 160 square matrix
 
 
 
