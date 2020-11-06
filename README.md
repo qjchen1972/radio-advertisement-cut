@@ -3,16 +3,16 @@
 ## Introduction
 Cut radio stations from the network to remove advertising, traffic information and the hourly news. Only the actual program content is retained.
 
-### Difficulties:
+#### Difficulties:
 1. Generally, one hour of radio content, only about 30 minutes of normal programming, advertising and programming content is not regular
 2. There are nearly 30 programs with different contents and hosts in a week
 3. There is no open solution of this type at present
 
-### Solution
+#### Solution
 1. Cut audio into 4-second blocks and convert them into Mel spectrum (pcen spectrum can also be used to express features)
 2. Use the spectrum to judge whether it is a normal program, and then cut it
 
-### Key points of the scheme
+#### Key points of the scheme
 1. After many tests, we use the spectrum chart composed of spectrum details and envelope to identify and train. Usually only envelope is used.
 2. A 401 * 80 square matrix is obtained by using 80 Mel filter banks and 4 seconds of sound. Finally, the 160 * 160 square matrix is used as the training and recognition input
 3. Using a castrated densenet network (430000 parameters), the deployed caffe2 network is about 2.5m
@@ -22,7 +22,7 @@ Cut radio stations from the network to remove advertising, traffic information a
    * The generated Mel spectrum is randomly cut into a 160 * 160 square matrix   
 5. In order to deploy on normal devices, a corresponding simple library is rewritten according to librosa of Python
 
-### Conclusion
+#### Conclusion
 
 1. Confusion matrix of test set
 
@@ -35,7 +35,7 @@ Cut radio stations from the network to remove advertising, traffic information a
 
 2. In the actual test, the effect is very good. I have specific test results, charts and data here. Call me when you need it
 
-### Some references
+#### Some references
 
   * [http://blog.csdn.net/zouxy09/article/details/9156785](http://blog.csdn.net/zouxy09/article/details/9156785)
   * [https://blog.csdn.net/zzc15806/article/details/79246716](https://blog.csdn.net/zzc15806/article/details/79246716)
