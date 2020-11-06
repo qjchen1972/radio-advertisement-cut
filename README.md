@@ -19,11 +19,10 @@ Cut radio stations from the network to remove advertising, traffic information a
 4. Data enhancement method similar to the graph is adopted
    * The volume of the sound will be increased or decreased at random
    * A random number is added or subtracted as a whole
-   * The generated Mel spectrum is randomly cut into a 160 * 160 square matrix
-
-
-
+   * The generated Mel spectrum is randomly cut into a 160 * 160 square matrix   
 5. In order to deploy on normal devices, a corresponding simple library is rewritten according to librosa of Python
+
+
 # test
 ok
 ok
