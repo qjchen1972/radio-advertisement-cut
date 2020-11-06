@@ -31,10 +31,7 @@ Cut radio stations from the network to remove advertising, traffic information a
 | abnormal prediction results | 1607 | 3 |
 | Normal program (forecast result) | 1 | 2287  |
 
-
-Accuracy = 99.89%
-
-
+  Accuracy = 99.89%
 
 2. In the actual test, the effect is very good. I have specific test results, charts and data here. Call me when you need it
 
