@@ -18,7 +18,7 @@ Cut radio stations from the network to remove advertising, traffic information a
 3. Using a castrated densenet network (430000 parameters), the deployed caffe2 network is about 2.5m
 4. Data enhancement method similar to the graph is adopted
    * The volume of the sound will be increased or decreased at random
-   * A random number is added or subtracted as a whole
+   *  A random number is added or subtracted as a whole
    * The generated Mel spectrum is randomly cut into a 160 * 160 square matrix
 
 
