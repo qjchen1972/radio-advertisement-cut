@@ -22,6 +22,19 @@ Cut radio stations from the network to remove advertising, traffic information a
    * The generated Mel spectrum is randomly cut into a 160 * 160 square matrix   
 5. In order to deploy on normal devices, a corresponding simple library is rewritten according to librosa of Python
 
+### Conclusion
+
+1. Confusion matrix of test set
+
+| | Abnormal program (actual result) | normal program (actual result)
+|:-------|:-----:|:-------:|
+| abnormal prediction results | 1607 | 3 |
+| Normal program (forecast result) | 1 | 2287 |
+Accuracy = 99.89%
+
+
+
+2. In the actual test, the effect is very good. I have specific test results, charts and data here. Call me when you need it
 
 # test
 ok
