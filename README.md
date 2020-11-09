@@ -45,3 +45,7 @@ Cut radio stations from the network to remove advertising, traffic information a
 ## Content
 
 #### [createlabel](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/createlabel)
+
+A part of normal programs are marked manually. The program is divided into all program wav and non program wav. Then, the program is divided into 4 seconds into a wav (2 seconds interval is used for segmentation), and then it is converted into Mel spectrum chart 80 * 480. In order to facilitate training, it is converted to 160 * 240 JPEG
+
+
