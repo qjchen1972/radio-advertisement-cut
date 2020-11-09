@@ -55,5 +55,10 @@ Cut radio stations from the network to remove advertising, traffic information a
 * Randomly cut 160 * 160 as training input
 
 #### [deladv(PytorchV1.3)](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/deladv(PytorchV1.3)) and [deladv(PytorchV1.0)](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/deladv(PytorchV1.0))
+* There are Linux version and windows version to delete the advertisement of audio program
+* Based on Python v1.3 and v1.0 respectively
 
+#### [Multi_radio_pull_C](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/Multi_radio_pull_C) and [Multi_radio_pull_py](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/Multi_radio_pull_py)
+* It can divide the programs of radio stations all over the world 
+* At present, C language version and python version are available
 
