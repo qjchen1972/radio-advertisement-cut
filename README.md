@@ -62,3 +62,6 @@ Cut radio stations from the network to remove advertising, traffic information a
 * It can divide the programs of radio stations all over the world 
 * At present, C language version and python version are available
 
+#### [radio](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/radio)
+* It is used to cut programs such as Los Angeles Chinese radio station (1300) according to the scheduled schedule time
+* Backup shell(bakHandle.sh) and the main contributor to this project is Tang Dong
