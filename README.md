@@ -50,4 +50,9 @@ Cut radio stations from the network to remove advertising, traffic information a
 * Then, the wavs is divided into 4 seconds into a wav (2 seconds interval is used for segmentation) 
 * and then it is converted into Mel spectrum  80 * 480. In order to facilitate training, it is converted to 160 * 240 JPEG
 
+#### [train net](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/train%20net)
+* Using Pytorch as a training framework
+* Randomly cut 160 * 160 as training input
+
+
 
