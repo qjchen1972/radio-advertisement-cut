@@ -54,5 +54,6 @@ Cut radio stations from the network to remove advertising, traffic information a
 * Using Pytorch as a training framework
 * Randomly cut 160 * 160 as training input
 
+#### [deladv(PytorchV1.3)](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/deladv(PytorchV1.3)) and [deladv(pytorchV1.0)](https://github.com/qjchen1972/radio-advertisement-cut/tree/main/deladv(pytorchV1.0))
 
 
